@@ -20,6 +20,8 @@ xaringanExtra::use_clipboard()
 
 Imagine each time you make any changes to your project folder, you copied all the files to a new folder and gave it a date and time: 
 
+I edited this text
+
 ```{text}
 project/ 
 └── 2020-12-28_v2/
