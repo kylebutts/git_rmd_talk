@@ -5,12 +5,12 @@
     <meta charset="utf-8" />
     <meta name="author" content="Kyle Butts" />
     <meta name="date" content="2020-12-28" />
-    <script src="libs/header-attrs/header-attrs.js"></script>
-    <link href="libs/remark-css/default.css" rel="stylesheet" />
-    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
-    <script src="libs/clipboard/clipboard.min.js"></script>
-    <link href="libs/xaringanExtra-clipboard/xaringanExtra-clipboard.css" rel="stylesheet" />
-    <script src="libs/xaringanExtra-clipboard/xaringanExtra-clipboard.js"></script>
+    <script src="libs/header-attrs-2.6/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <script src="libs/clipboard-2.0.6/clipboard.min.js"></script>
+    <link href="libs/xaringanExtra-clipboard-0.2.4/xaringanExtra-clipboard.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-clipboard-0.2.4/xaringanExtra-clipboard.js"></script>
     <script>window.xaringanExtraClipboard(null, {"button":"Copy Code","success":"Copied!","error":"Press Ctrl+C to Copy"})</script>
   </head>
   <body>
@@ -184,8 +184,58 @@ Simply put: **Git = Word Document; Github = Google Docs**
 Let's open an example repository and I'll show you around github: 
 https://github.com/kylebutts/templates/
 
+&lt;img src="graphics/gh1.png" width="4739" /&gt;
 
 
+Checklist:
+- Viewing commit log
+- Viewing file-specific commit log
+- Github issues
+
+
+
+---
+### Cloning and Forking Repository
+
+
+**Cloning**: 
+
+- Cloning repository downloads all the files into a folder onto your computer and sets up everything to connect to Github.
+- This allows you to make changes locally and publish them to Github, i.e. collaborate with coauthors.
+
+
+**Forking**:
+
+- This copies the contents of a repository into your own repository (including full history). Any future commits do not go to the original owner's repository.
+- This should not be used if you are collaborating with people. 
+
+
+
+---
+## Cloning Repository
+
+
+
+
+---
+
+&lt;img src="graphics/rmd_example.jpg" width="80%" style="display: block; margin: auto;" /&gt;
+
+
+---
+### Three Components to an R Markdown File
+1. YAML
+  - Top of document. Contains the information for how to convert .Rmd file to other forms: e.g. html document, pdf document, html slides, beamer slides, tufte format, distill format, etc. 
+  - Full list of output formats [here](https://rmarkdown.rstudio.com/formats.html)
+  - Contains authors, title, date, etc. for title
+2. Markdown
+  - Text of document. Can use headers, lists, links, text styling, etc. 
+  - [Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+  - Can contain latex math equations.
+3. Code Chunk
+  - Run R code and produces results below. This can make tables, figures, and display console output. 
+  - Options to show/hide code, show/hide output.
+  - [Tutorial on R Chunks](https://rmarkdown.rstudio.com/lesson-3.html)
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
